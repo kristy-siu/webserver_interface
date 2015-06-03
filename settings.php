@@ -1,0 +1,5 @@
+<?php
+
+	$REVIEW_ENABLED=TRUE;
+
+?>

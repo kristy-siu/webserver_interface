@@ -1,0 +1,240 @@
+body {
+	background-color: black;
+	overflow-y: scroll;
+}
+.rating1 {
+    align: center;
+}
+.rating1 span { float:right; position:relative; }
+.rating1 span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.rating1 span label {
+	float: left;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+    color:#0f0;
+    background:#ccc;
+    font-size:30px;
+    margin-right:18px;
+    line-height:30px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.rating1 span:hover ~ span label,
+.rating1 span:hover label,
+.rating1 span.checked label,
+.rating1 span.checked ~ span label {
+    background:#FF0;
+    color:#FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rating2 {
+    align: center;
+}
+.rating2 span { float:right; position:relative; }
+.rating2 span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.rating2 span label {
+	float: left;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+    color:#0f0;
+    background:#ccc;
+    font-size:30px;
+    margin-right:18px;
+    line-height:30px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.rating2 span:hover ~ span label,
+.rating2 span:hover label,
+.rating2 span.checked label,
+.rating2 span.checked ~ span label {
+    background:#FF0;
+    color:#FFF;
+}
+
+
+.rating3 {
+    align: center;
+}
+.rating3 span { float:right; position:relative; }
+.rating3 span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.rating3 span label {
+	float: left;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+    color:#0f0;
+    background:#ccc;
+    font-size:30px;
+    margin-right:18px;
+    line-height:30px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.rating3 span:hover ~ span label,
+.rating3 span:hover label,
+.rating3 span.checked label,
+.rating3 span.checked ~ span label {
+    background:#FF0;
+    color:#FFF;
+}
+
+
+
+.rating {
+    align: center;
+}
+.rating span { float:right; position:relative; }
+.rating span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.rating span label {
+	float: left;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+    color:#0f0;
+    background:#ccc;
+    font-size:30px;
+    margin-right:18px;
+    line-height:30px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.rating span:hover ~ span label,
+.rating span:hover label,
+.rating span.checked label,
+.rating span.checked ~ span label {
+    background:#FF0;
+    color:#FFF;
+}
+div {
+  z-index:-1;
+
+margin: auto;
+margin-top: 15px;  
+color:#00f900;	
+}
+input {
+margin:10px;}
+textarea {
+	width:80%;
+	height:130px;
+	font-size: 20px;
+}
+a#back {
+	position: fixed;
+	left: 130px;
+	top: 80px;
+	z-index: 1;
+}
+p#back {
+	position: fixed;
+	left: 130px;
+	top: 80px;
+	z-index: 1;
+}
+div#browser_navigation {
+	position: fixed;
+	left: 270px;
+	top: 100px;
+	z-index: 1;
+}
+div#logintext {
+	position: fixed;
+	left: 130px;
+	top: 250px;
+	z-index: 1;
+}
+div.spacer {
+	height: 100px;
+}
+table {
+	margin-left: 100px;
+	width: 85%;
+	font-family: courier;
+	border: 2px solid green;
+	border-collapse: collapse;
+}
+
+table.record {
+	
+	margin-top: 149px;
+}
+td, th {
+	padding:10px;
+	text-align:center;
+	border: 2px solid green;
+	font-size:25px;
+	width: 10%;
+	
+}
+
+iframe#thumb {
+margin: auto;
+margin-top: 149px;
+display: block;
+background-color:white;
+  overflow: hidden;
+  width: 864px;
+  height: 360px;
+
+  border: #49483E solid 1px;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+
+}
+td.name_col {
+	width: 14%;
+	font-size:15px;
+}
+td.skinny {
+font-size:17px;
+width: 6%;}
+td.links {
+width: 8%;}
+img.pos_fixed {
+	left: 0px;
+	height:100%;
+	width: 100%;
+    position: fixed;
+pointer-events: none;
+    top: 0px;
+   
+	z-index:0;
+}
